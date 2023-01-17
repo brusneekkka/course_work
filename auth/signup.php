@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- <meta charset="UTF-8"> -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
 </head>
 
 <body>
@@ -45,45 +43,4 @@
 		Есть аккаунт? Войти
 	</a>
 </div>
-
-<!--
-<body>
-	<table>
-	<form method = "GET" action = "signup_processing.php">
-		<tr>
-		<td>
-		<label>
-			Login
-		</label>
-		</td>
-		<td>
-		<input type = "text" name = "user"/>
-	    </tr>
-		</td>
-	    <tr>
-	    <td>
-	    <label>
-			Password
-		</label>
-		</td>
-		<td>
-		<input type ="password" name = "pass"/>
-		</td>
-		</tr>
-		<tr>
-		<td>
-		<input type = "submit" value = "Sign Up!"/>
-		</td>
-		</tr>
-	</form>
-	<tr>
-	<td>
-	<a href = "login.php">
-		Log In!
-	</a>
-	</td>
-	</tr>
-	</table>
-</body>
--->	
 </html>
