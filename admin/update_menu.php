@@ -6,7 +6,6 @@
     $value = $_GET['value'];
     $id = $_GET['id'];
     
-    //проверка на не ноль и на то что они есть
     switch ($column) {
         case 'type':
             $sql = "UPDATE menu SET type = '$value' WHERE id = '$id'";
