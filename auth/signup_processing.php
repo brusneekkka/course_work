@@ -20,7 +20,7 @@
 	if ($flag > 0)
 	{
 		setcookie("message", "Уже существует юзер с таким никнеймом", time() + 3);
-    	header("Location: signup.php", true, 303);
+    		header("Location: signup.php", true, 303);
 	}
     else 
     {
