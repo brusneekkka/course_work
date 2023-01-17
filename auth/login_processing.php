@@ -1,7 +1,6 @@
 <?php
 	$login = $_GET['user'];
 	$pass = $_GET['pass'];
-	//сделать обработку на допустимость лог пароля и вывод ошибки
 	$linkbaza = mysqli_connect('localhost', 'root', 'root', 'kiosk');
 	if ($linkbaza == false)
 		echo mysqli_connect_error();
