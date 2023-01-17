@@ -190,6 +190,9 @@ const obj = document.getElementById('17');
 Окно добавления блюда:
 ![](pics/gzLibQb3gDY.jpg)
 
+Окно заказов:
+![](pics/MgmNmI1Cwt4.jpg)
+
 Всё работает!
 
 ## Внедрение
