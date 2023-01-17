@@ -38,36 +38,5 @@
 		Нет аккаунта? Зарегистрировать
 	</a>
 </div>
-	<!--
-	<table>
-	<form method = "GET" action = "login_processing.php">
-		<tr>
-		<td>
-		<label>
-			Login
-		</label>
-		</td>
-		<td>
-		<input type = "text" name = "user"/>
-	    </tr>
-		</td>
-	    <tr>
-	    <td>
-	    <label>
-			Password
-		</label>
-		</td>
-		<td>
-		<input type ="password" name = "pass"/>
-		</td>
-		</tr>
-		<tr>
-		<td>
-		<input type = "submit" value = "Log In!"/>
-		</td>
-		</tr>
-	</form>
-	</table>
--->
 </body>	
 </html>
