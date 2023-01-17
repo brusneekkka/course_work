@@ -23,14 +23,8 @@
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light">Админ Панель</h1>
         <p>
-         <button id="adding" type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                                  Добавить Блюдо
-                                    </button>
+                                     <button id="adding" type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">Добавить Блюдо</button>
                                     <button onClick='location.href="/course_work/auth/login.php"' type="button" class="btn btn-danger">Выйти</button>
-
-                                    
-
-
                                     <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                       <div class="modal-dialog">
                                         <div class="modal-content">
@@ -39,35 +33,27 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
                                           </div>
                                           <div id="orderss1" class="modal-body">
-
                                             <p> 
                                                 <div class="input-group mb-3">
                                                 <input id="iname1" type="text" class="form-control" placeholder="Новое наименование">
-                                                
                                                 </div>
                                             </p>
                                             <p>
                                                 <div class="input-group mb-3">
                                                 <input id="idescr1" type="text" class="form-control" placeholder="Новое Описание">
-                                        
                                                 </div>
                                             </p>
                                             <p>
                                                 <div class="input-group mb-3">
                                                 <input id="iprice1" type="text" class="form-control" placeholder="Новая цена">
-                                                
                                                 </div>
                                             </p>
-
-                                            <p><div class="input-group">
-                                                <input id="iimg1" type="text" class="form-control" placeholder="Новая ссылка на картинку">
-                                                <!--<input id="iimg1" type="file" class="form-control" aria-describedby="inputGroupFileAddon04" aria-label="Загрузка">-->
-                                                
+                                            <p>
+                                                <div class="input-group">
+                                                <input id="iimg1" type="text" class="form-control" placeholder="Новая ссылка на картинку">  
                                                 </div>
                                             </p>
-
                                             <p><button id="add_eat" type="button" class="btn btn-success">Добавить Блюдо</button></p>
-
                                           </div>
                                           <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -80,27 +66,15 @@
       </div>
     </div>
   </section>
-
   <div class="album py-5 bg-light">
     <div class="container">
-    
       <div id="17" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        
-        
       </div>
     </div>
   </div>
 
 </main>
-
-
-
-
-    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" wfd-invisible="true"></script>
-
-      
-  
-
+<script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" wfd-invisible="true"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 </body>
