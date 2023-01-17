@@ -39,19 +39,10 @@ function createMenuCard(arr){
 				          </div>`
 				        obj.appendChild(new_col);            
 	});
-	
 }
 
 get_menu();
-/*
-function order(){
-	let button = document.querySelector('#xxx');
-	let name = 'slava';
-	button.addEventListener('click', fetch('/course_work/user/add_order.php?name='+name));
-}
 
-order();
-*/
 list_order();
 let lists = document.getElementById('yyy');
 lists.addEventListener('click', (e) => {list_order()});
@@ -87,11 +78,9 @@ function create_order(arr){
 function add_to_list(id){
 	let obj = document.getElementById('number+'+id);
 	obj.innerHTML++;
-	//products.push(id);
 }
 
 function remove_from_list(id){
 	let obj = document.getElementById('number+'+id);
 	obj.innerHTML--;
-	//delete products[-1];
 }
