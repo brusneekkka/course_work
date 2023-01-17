@@ -3,7 +3,6 @@
     require_once($_SERVER['DOCUMENT_ROOT'].'\course_work\json_encode.php');
 
     $name = $_GET['name'];
-
     $db = dbconnection();
     $sql = "SELECT * FROM orderss WHERE name = '$name'";
     $res = mysqli_query($db, $sql);
