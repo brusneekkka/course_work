@@ -6,7 +6,6 @@
     $img = $_GET['img'];
     $descr = $_GET['descr'];
     $price = $_GET['price'];
-    //проверка на не ноль и на то что они есть
     $db = dbconnection();
     $sql = "INSERT INTO menu (type, img, descr, price) VALUES ('$type','$img','$descr','$price')";
     $res = mysqli_query($db, $sql);
