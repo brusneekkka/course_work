@@ -179,11 +179,13 @@ const obj = document.getElementById('17');
 
 ## Тестирование
 
-Регистрируемся:
-![](pics/22kWnEDfRWw.jpg)
+
 
 Авторизовались, видим главную страницу:
 ![](pics/q5cD_G4LRhc.jpg)
+
+Регистрируемся:
+![](pics/22kWnEDfRWw.jpg)
 
 Введём "Hello, world!" и попробуем перевести на русский:
 ![](pics/gzLibQb3gDY.jpg)
