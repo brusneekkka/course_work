@@ -96,10 +96,10 @@ menu имеет столбцы **type**, **img**, **descr**, **price**, **id**
 
 ### Алгоритмы
 
-![](pics/3.png)
+![](pics/30zxSoxtF-4.jpg)
 
 ### Пример HTTP запросов/ответов
-![](pics/4.png)
+![](pics/Q9EQvMDnWGs.jpg)
 ### Значимые фрагменты кода
 **fetch()**-запрос при для получения данных о карточках блюд:
         fetch('/course_work/list_menu.php')
@@ -180,13 +180,13 @@ const obj = document.getElementById('17');
 ## Тестирование
 
 Регистрируемся:
-![](pics/5.png)
+![](pics/22kWnEDfRWw.jpg)
 
 Авторизовались, видим главную страницу:
-![](pics/6.png)
+![](pics/q5cD_G4LRhc.jpg)
 
 Введём "Hello, world!" и попробуем перевести на русский:
-![](pics/7.png)
+![](pics/gzLibQb3gDY.jpg)
 
 Всё работает!
 
